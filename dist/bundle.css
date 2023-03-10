@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px
+}
+
+.main .container {
+    text-align: center;
+    background-color: #bfbfbf;
+    border-radius: 20px;
+    margin: 0 auto 60px auto;
+    padding: 20px 80px 0 80px;
+    width: 1200px;
+    box-shadow: 0 0 15px #2b2929
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.search-label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px
+}
+
+.search-label input {
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 400px
+}
+
+.search-repositories {
+    margin-top: 50px
+}
+
+.search-results {
+    margin: 50px 0 50px 0
+}
+
+.search-results .repository {
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #2b2929;
+    color: #d4d4d4;
+    box-shadow: 0 0 15px #2b2929
+}
+
+.search-results .repository a {
+    font-size: 20px;
+    color: #fff
+}
+
+.search-results .repository-name {
+    margin-bottom: 10px
+}
+
+.search-results .repository-desc {
+    margin-bottom: 10px
+}
+
+.search-input {
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+.search-button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, .3)
+}
+
+.error {
+    box-shadow: 0 0 15px red
+}
+
+.error-text {
+    color: red
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+a, span, p, b, h1, h2, h3, h4, h5 {
+    color: #000
+}
+
+body {
+    background-color: #fff
+}
